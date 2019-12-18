@@ -79,8 +79,12 @@ svn revert
 // [--recursive] 递归还原
 ```
 15. 解决冲突
+```
 svn resolved [目录路径]
-16. 查看URL文件内容
+```
+1.  查看URL文件内容
+```
 svn cat http://文件路径
+```
 
 ## TortoisesSVN使用
