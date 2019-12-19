@@ -59,4 +59,4 @@
 ```
 
 ## 图片
-![图标](./picture/markdown.jpeg)
+![图标](./picture/markdown.jpg)
