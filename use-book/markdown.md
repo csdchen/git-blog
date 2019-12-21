@@ -23,6 +23,11 @@
     _斜体_  
     ___加粗+斜体___  
     <u>下划线</u>  
+    <font face="微软雅黑" >微软雅黑字体</font>  
+    <font face="黑体" >黑体</font>  
+    <font size=3 >3号字</font>  
+    <font size=4 >4号字</font>  
+    <font color=#FF0000 >红色</font>  
 ```
     上面是加了两个空格再换行,不然显示是连在一起的 
     “**加粗***斜体*...”
