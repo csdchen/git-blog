@@ -1,4 +1,4 @@
-# markdown使用
+# <center>markdown使用</center>
 
 # 我用的是vscode写的
 # 一级标题
@@ -28,9 +28,11 @@
     <font size=3 >3号字</font>  
     <font size=4 >4号字</font>  
     <font color=#FF0000 >红色</font>  
+    `高亮`
 ```
     上面是加了两个空格再换行,不然显示是连在一起的 
-    “**加粗***斜体*...”
+    “**加粗***斜体*...”  
+    github 不支持<font> <style> 标签
 ```
 ### 三级标题
 *    无序段落1
@@ -64,4 +66,5 @@
 ```
 
 ## 图片
-![图标](./picture/markdown.jpg)
+![图标](./picture/markdown.jpg)  
+<img src='./picture/markdown.jpg' width=100 height=100 />
