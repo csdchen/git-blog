@@ -48,6 +48,8 @@ git add <文件>...
 * 提交
 ```
 git commit -m "备注"
+git show    // 查看commit内容
+git show commitHashID [filename] // 查看指定commit hashID的[文件]修改
 ```
 * 查看提交历史
 ```
@@ -68,5 +70,24 @@ git merge origin/master // 合并分支
 git push [本地名] 远程分支名
 - git push origin master
 ```
-
+* 不提交的文件加入 .gitgnore
 ## git错误信息
+* git add 一个错误文件
+```
+git reset filename // 撤销指定文件
+git reset // 撤销所有文件
+
+```
+// 若提示 fatal: Failed to resolve 'HEAD' as a valid ref.  
+// 未能将'HEAD'解析为有效引用
+```
+git rm --cached .    // 删除文件
+git rm -r --cached . // 删除文件和目录
+```
+* git commit 错误提交
+```
+git reset HEAD~1    // 只撤销commit操作，保留文件
+git reset --hard HEAD~1     // 撤销commit操作，删除变化
+```
+
+[主目录](../../目录.md)
