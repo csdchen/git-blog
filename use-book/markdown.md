@@ -69,4 +69,4 @@
 ![图标](./picture/markdown.jpg)  
 <img src='./picture/markdown.jpg' width=100 height=100 />  
 
-[主目录](../目录.md)
+[主目录](../README.md)

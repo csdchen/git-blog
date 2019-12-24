@@ -90,4 +90,4 @@ git reset HEAD~1    // 只撤销commit操作，保留文件
 git reset --hard HEAD~1     // 撤销commit操作，删除变化
 ```
 
-[主目录](../../目录.md)
+[主目录](../../README.md)
