@@ -7,3 +7,4 @@ This is my git blog to save my development experience, software use records, lea
 * [调试操作](./use-book/调试操作)
 * [SVN](./use-book/tool/svn.md)
 * [git](./use-book/tool/git.md)
+* [note](./use-book/note.md)
