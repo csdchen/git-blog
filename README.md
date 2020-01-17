@@ -8,3 +8,6 @@ This is my git blog to save my development experience, software use records, lea
 * [SVN](./use-book/tool/svn.md)
 * [git](./use-book/tool/git.md)
 * [note](./use-book/note.md)
+* [开发经历](./use-book/开发经历.md)
+* [编译错误](./use-book/compile-error.md)
+* [设计模式](./study/设计模式.md)

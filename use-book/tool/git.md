@@ -93,14 +93,8 @@ git reset --hard HEAD~1     // 撤销commit操作，删除变化
 # 错误提示
 ```
 ERROR: You must verify your email address.
-See https://github.com/settings/emails.
-
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-
-
+- 一般要重新验证邮箱，上github查看邮箱设置是不是有提示
+- 例如：Please verify your email address to access all of GitHub’s features
 ```
 
 [主目录](../../README.md)
