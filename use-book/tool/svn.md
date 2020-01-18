@@ -88,5 +88,21 @@ svn cat http://文件路径
 ```
 
 ## TortoisesSVN使用
+### 错误信息
+- 冲突
+```
+postpone 推迟
+skip this conflict and leave it unresolved 跳过这个冲突，让它不被解决
+
+mark as resloved 标记为已解决
+accept current working copy state 接受当前工作副本状态
+
+ignore incoming deletion 忽略传入删除
+ignore the deletion of "xxx@xxx" 忽略删除
+
+accept incoming deletion
+ignore the deletion of "xxx" 接受传入删除
+```
+
 
 [主目录](../../README.md)
