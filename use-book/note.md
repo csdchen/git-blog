@@ -65,3 +65,9 @@ int GetValue(int key)
 	return 0;
 }
 ```
+
+### 尽量不要使用会create a new param的接口
+```
+使用这种接口容易忘记手动free内存, 导致大量的内存碎片
+```
+
