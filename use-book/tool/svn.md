@@ -1,5 +1,8 @@
 # SVN
 
+## 账号密码
+linux cd ~/.subversion/auth/svn.simple
+
 ## 简单用法
 1. 检出
 ```
