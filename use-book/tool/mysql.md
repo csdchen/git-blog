@@ -110,6 +110,19 @@ sudo apt-get install libaio-dev
 sudo apt-get update
 ```
 
+- Access denied for user 'root'@'localhost' (using password: YES)
+```
+1）mysql的服务器停止
+2）用户的端口号或者IP导致
+3）mysql的配置文件错误----my.ini等文件
+4）root用户的密码错误
+```
+
+- 2003 - Can't connect to MYSQL server on '192.*.*.*'(10038)
+```
+1) mysql的服务器未开启
+```
+
 ## ubuntu 简单安装mysql
 ```
 sudo apt-get install mysql-server

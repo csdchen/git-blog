@@ -111,4 +111,4 @@ jump file:line
     end
     ```
     - ~/.gdbinit 放在尾部
-    - 
+    - [ep](example/.gdbinit)
