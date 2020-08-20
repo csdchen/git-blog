@@ -123,6 +123,17 @@ sudo apt-get update
 1) mysql的服务器未开启
 ```
 
+
+## 优化
+- binlog 太多太大-磁盘不足
+```
+1. purge binary logs to 'mysql-bin.00003';
+   表示清理mysql-bin.00003之前的所有binlog，但不包括mysql-bin.00003本身
+2. 设置日志保留时长 my.cnf
+   expire_logs_days = 7;
+```
+
+
 ## ubuntu 简单安装mysql
 ```
 sudo apt-get install mysql-server

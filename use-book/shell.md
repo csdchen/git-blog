@@ -24,7 +24,6 @@ fi
 ```
 
 ```
-```
 if condition
 then
     commond
@@ -38,4 +37,72 @@ fi
 
 ## switch开关
 ```
+#!/bin/bash
+
+num=1
+case $num in
+    1 )
+        echo "1"
+        ;;
+    2 )
+        echo "2"
+        ;;
+    3 )
+        echo "3"
+        ;;
+    * )
+        echo "not 1 2 3"
+        ;;
+esac
+#输出：1
+
+#!/bin/bash
+
+num=1
+case $num in
+    1 )
+        echo "1"
+        ;;&  #有条件向后匹配
+    2 )
+        echo "2"
+        ;;
+    3 )
+        echo "3"
+        ;;
+    * )
+        echo "not 1 2 3"
+        ;;
+esac
+#输出：
+    1
+    not 1 2 3
+
+#!/bin/bash
+
+num=1
+case $num in
+    1 )
+        echo "1"
+        ;& #无条件向后匹配
+    2 )
+        echo "2"
+        ;;
+    3 )
+        echo "3"
+        ;;
+    * )
+        echo "not 1 2 3"
+        ;;
+esac
+#输出：
+    1
+    2
 ```
+
+## 参数传递
+```
+$0 - 脚本本身
+$1 - 第一个参数
+$# - 参数个数
+
+``` 

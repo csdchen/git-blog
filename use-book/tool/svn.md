@@ -106,6 +106,10 @@ ignore the deletion of "xxx@xxx" 忽略删除
 accept incoming deletion
 ignore the deletion of "xxx" 接受传入删除
 ```
-
+- unable to create pristine install stream
+- can't create temporary file from template '...../.svn/tmp/svn-xxxxx': No space left on device
+```
+临时交换空间不足
+```
 
 [主目录](../../README.md)
