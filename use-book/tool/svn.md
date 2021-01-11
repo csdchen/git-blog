@@ -8,8 +8,14 @@ linux cd ~/.subversion/auth/svn.simple
 ```
 svn checkout http://路径 本地路径 --username 用户名
 svn checkout svn://路径 本地路径 --username 用户名
+svn 
 ```
-2. 导出（导出一个干净不带.svn文件夹的目录树）
+  - checkout单文件
+    ```
+    svn co --depth=empty svn://路径 本地路径
+    svn up filename
+    ```
+1. 导出（导出一个干净不带.svn文件夹的目录树）
 ```
 svn export [-r 版本号] http://路径 本地路径 --username 用户名
 svn export [-r 版本号] svn://路径 本地路径 --username 用户名
