@@ -22,3 +22,4 @@ sysctl -a
         - t:tcp
         - u:udp
         - p:process
+    - nestat -tp | grep 端口名

@@ -123,10 +123,29 @@ ignore the deletion of "xxx@xxx" 忽略删除
 accept incoming deletion
 ignore the deletion of "xxx" 接受传入删除
 ```
+
 - unable to create pristine install stream
 - can't create temporary file from template '...../.svn/tmp/svn-xxxxx': No space left on device
 ```
 临时交换空间不足
 ```
+
+- E000022
+```
+svnsync：E000022：Couldn't get lock on destination repos after 10 attempts
+```
+
+- E155004
+```
+svn：E155004：Run 'svn cleanup' to remove lock(type 'svn help cleanup' for details)
+svn: E155004: working copy '...' locked
+svn: E155004: '...' is already locked
+```
+```
+'...'路径冲突报错
+svn st查看冲突文件
+```
+
+
 
 [主目录](../../README.md)

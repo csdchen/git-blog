@@ -16,3 +16,4 @@ This is my git blog to save my development experience, software use records, lea
 * [设计模式](./study/设计模式.md)
 * [重构](./study/重构.md)
 * [C++语言](./cpp/README.md)
+* [游戏设计](./study/游戏设计.md)
