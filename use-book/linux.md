@@ -23,3 +23,9 @@ sysctl -a
         - u:udp
         - p:process
     - nestat -tp | grep 端口名
+
+- 查看登陆信息
+```
+last -f /var/log/wtmp
+查看/var/log/secure文件寻找可疑IP登陆次数
+```
