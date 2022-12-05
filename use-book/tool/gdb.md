@@ -12,6 +12,16 @@ gdb -p pid进程id -x 命令脚本
 
 gdb -p pid进程id
 ```
+```
+gdb EXE
+source 命令脚本
+
+/*命令脚本
+attack pid
+命令内容
+*/
+
+```
 [例子]()
 
 2. 调试core文件
